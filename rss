@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Martinova Pochutina</title>
+		<link>https://pochutina.mzf.cz</link>
+		<description>delikátní záležitost...</description>
+		<lastBuildDate>Wed, 15 Nov 2023 19:50:15 +0100</lastBuildDate>
+		<item>
+			<title>maturitni_prace.pdf</title>
+			<link>https://pochutina.mzf.cz/dokumenty/maturitni_prace.pdf</link>
+			<category>dokumenty</category>
+			<pubDate>Mon, 06 Mar 2023 19:23:15 +0100</pubDate>
+		</item>
+		<item>
+			<title>cetba.html</title>
+			<link>https://pochutina.mzf.cz/dokumenty/cetba.html</link>
+			<category>dokumenty</category>
+			<pubDate>Wed, 15 Nov 2023 19:50:11 +0100</pubDate>
+		</item>
+		<item>
+			<title>kvarteto_drama.pdf</title>
+			<link>https://pochutina.mzf.cz/dokumenty/kvarteto_drama.pdf</link>
+			<category>dokumenty</category>
+			<pubDate>Wed, 09 Aug 2023 13:57:05 +0200</pubDate>
+		</item>
+		<item>
+			<title>holy-water.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/holy-water.flac</link>
+			<category>hudba</category>
+			<pubDate>Mon, 20 Feb 2023 16:53:49 +0100</pubDate>
+		</item>
+		<item>
+			<title>stranger_DEMO.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/stranger_DEMO.flac</link>
+			<category>hudba</category>
+			<pubDate>Mon, 20 Feb 2023 16:53:48 +0100</pubDate>
+		</item>
+		<item>
+			<title>sunday.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/sunday.flac</link>
+			<category>hudba</category>
+			<pubDate>Mon, 20 Feb 2023 16:53:49 +0100</pubDate>
+		</item>
+		<item>
+			<title>plenty.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/plenty.flac</link>
+			<category>hudba</category>
+			<pubDate>Sun, 05 Mar 2023 11:58:13 +0100</pubDate>
+		</item>
+		<item>
+			<title>your-song.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/your-song.flac</link>
+			<category>hudba</category>
+			<pubDate>Wed, 31 May 2023 14:56:23 +0200</pubDate>
+		</item>
+		<item>
+			<title>all-around.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/all-around.flac</link>
+			<category>hudba</category>
+			<pubDate>Mon, 10 Jul 2023 13:09:55 +0200</pubDate>
+		</item>
+		<item>
+			<title>what-were-gonna-do.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/what-were-gonna-do.flac</link>
+			<category>hudba</category>
+			<pubDate>Mon, 20 Feb 2023 16:53:49 +0100</pubDate>
+		</item>
+		<item>
+			<title>divide.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/INSTRUMENTALNI/divide.flac</link>
+			<category>hudba</category>
+			<pubDate>Mon, 20 Feb 2023 16:53:50 +0100</pubDate>
+		</item>
+		<item>
+			<title>old.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/INSTRUMENTALNI/old.flac</link>
+			<category>hudba</category>
+			<pubDate>Mon, 20 Feb 2023 16:53:50 +0100</pubDate>
+		</item>
+		<item>
+			<title>story-told.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/INSTRUMENTALNI/story-told.flac</link>
+			<category>hudba</category>
+			<pubDate>Mon, 20 Feb 2023 16:53:50 +0100</pubDate>
+		</item>
+		<item>
+			<title>sweet.flac</title>
+			<link>https://pochutina.mzf.cz/hudba/sweet.flac</link>
+			<category>hudba</category>
+			<pubDate>Tue, 06 Jun 2023 13:54:04 +0200</pubDate>
+		</item>
+		<item>
+			<title>sablona.tex</title>
+			<link>https://pochutina.mzf.cz/programy/sablona.tex</link>
+			<category>programy</category>
+			<pubDate>Fri, 30 Jun 2023 13:03:36 +0200</pubDate>
+		</item>
+		<item>
+			<title>game_of_life.py</title>
+			<link>https://pochutina.mzf.cz/programy/game_of_life.py</link>
+			<category>programy</category>
+			<pubDate>Wed, 06 Sep 2023 23:01:18 +0200</pubDate>
+		</item>
+		<item>
+			<title>kostka.c</title>
+			<link>https://pochutina.mzf.cz/programy/C/kostka.c</link>
+			<category>programy</category>
+			<pubDate>Sun, 13 Aug 2023 13:44:35 +0200</pubDate>
+		</item>
+		<item>
+			<title>kvadr.c</title>
+			<link>https://pochutina.mzf.cz/programy/C/kvadr.c</link>
+			<category>programy</category>
+			<pubDate>Sun, 13 Aug 2023 13:45:04 +0200</pubDate>
+		</item>
+		<item>
+			<title>tobi.c</title>
+			<link>https://pochutina.mzf.cz/programy/C/tobi.c</link>
+			<category>programy</category>
+			<pubDate>Mon, 14 Aug 2023 14:54:47 +0200</pubDate>
+		</item>
+		<item>
+			<title>dedup.c</title>
+			<link>https://pochutina.mzf.cz/programy/C/dedup.c</link>
+			<category>programy</category>
+			<pubDate>Mon, 14 Aug 2023 18:12:12 +0200</pubDate>
+		</item>
+		<item>
+			<title>cykl.c</title>
+			<link>https://pochutina.mzf.cz/programy/C/cykl.c</link>
+			<category>programy</category>
+			<pubDate>Tue, 03 Oct 2023 15:36:38 +0200</pubDate>
+		</item>
+		<item>
+			<title>beep.wav</title>
+			<link>https://pochutina.mzf.cz/programy/JAVASCRIPT/.assets/beep.wav</link>
+			<category>programy</category>
+			<pubDate>Thu, 07 Sep 2023 20:47:06 +0200</pubDate>
+		</item>
+		<item>
+			<title>boop.wav</title>
+			<link>https://pochutina.mzf.cz/programy/JAVASCRIPT/.assets/boop.wav</link>
+			<category>programy</category>
+			<pubDate>Thu, 07 Sep 2023 20:48:40 +0200</pubDate>
+		</item>
+		<item>
+			<title>flappy_bird.js</title>
+			<link>https://pochutina.mzf.cz/programy/JAVASCRIPT/flappy_bird.js</link>
+			<category>programy</category>
+			<pubDate>Sat, 09 Sep 2023 14:47:13 +0200</pubDate>
+		</item>
+		<item>
+			<title>flappy_bird.html</title>
+			<link>https://pochutina.mzf.cz/programy/JAVASCRIPT/flappy_bird.html</link>
+			<category>programy</category>
+			<pubDate>Sat, 09 Sep 2023 20:15:21 +0200</pubDate>
+		</item>
+		<item>
+			<title>snake.html</title>
+			<link>https://pochutina.mzf.cz/programy/JAVASCRIPT/snake.html</link>
+			<category>programy</category>
+			<pubDate>Sat, 09 Sep 2023 20:15:30 +0200</pubDate>
+		</item>
+		<item>
+			<title>snake.js</title>
+			<link>https://pochutina.mzf.cz/programy/JAVASCRIPT/snake.js</link>
+			<category>programy</category>
+			<pubDate>Fri, 22 Sep 2023 17:07:07 +0200</pubDate>
+		</item>
+		<item>
+			<title>clay.tar.gz</title>
+			<link>https://pochutina.mzf.cz/programy/clay.tar.gz</link>
+			<category>programy</category>
+			<pubDate>Sat, 28 Oct 2023 17:11:14 +0200</pubDate>
+		</item>
+		<item>
+			<title>far_windows.exe</title>
+			<link>https://pochutina.mzf.cz/programy/far_windows.exe</link>
+			<category>programy</category>
+			<pubDate>Mon, 20 Feb 2023 16:53:52 +0100</pubDate>
+		</item>
+		<item>
+			<title>czech_tree.diff</title>
+			<link>https://pochutina.mzf.cz/programy/czech_tree.diff</link>
+			<category>programy</category>
+			<pubDate>Sat, 09 Sep 2023 20:51:41 +0200</pubDate>
+		</item>
+		<item>
+			<title>faktorial.go</title>
+			<link>https://pochutina.mzf.cz/programy/faktorial.go</link>
+			<category>programy</category>
+			<pubDate>Sat, 09 Sep 2023 22:24:33 +0200</pubDate>
+		</item>
+		<item>
+			<title>rps.tar.gz</title>
+			<link>https://pochutina.mzf.cz/programy/rps.tar.gz</link>
+			<category>programy</category>
+			<pubDate>Thu, 09 Nov 2023 19:45:12 +0100</pubDate>
+		</item>
+		<item>
+			<title>learn_godot_in_10_minutes.mp4</title>
+			<link>https://pochutina.mzf.cz/videa/learn_godot_in_10_minutes.mp4</link>
+			<category>videa</category>
+			<pubDate>Mon, 20 Feb 2023 16:53:51 +0100</pubDate>
+		</item>
+		<item>
+			<title>pointers_by_example.mp4</title>
+			<link>https://pochutina.mzf.cz/videa/pointers_by_example.mp4</link>
+			<category>videa</category>
+			<pubDate>Tue, 01 Aug 2023 16:26:16 +0200</pubDate>
+		</item>
+	</channel>
+</rss>

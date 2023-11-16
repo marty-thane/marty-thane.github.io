@@ -1,0 +1,46 @@
+# Patch pro tree v2.1.0. Pocestely HTML vystup s upravenym formatovanim.
+# Odkaz na zdrojovy kod: http://mama.indstate.edu/users/ice/tree/
+# Instalujte prikazem `patch -i czech_tree.diff`.
+
+--- html.c.orig	2022-12-11 18:13:18.000000000 +0100
++++ html.c	2023-01-31 16:15:32.184687393 +0100
+@@ -244,20 +244,33 @@
+   fprintf(outfile, "</%s><br>\n", file->tag);
+ }
+ 
++char *return_suffix(int num, const char *a, const char *b)
++{
++  switch (num) {
++    case 1: return strdup("");
++    case 2:
++    case 3:
++    case 4: return strdup(a);
++    default: return strdup(b);
++  }
++}
++
+ void html_report(struct totals tot)
+ {
+   char buf[256];
+ 
+-  fprintf(outfile,"<br><br><p>\n\n");
++  fprintf(outfile,"\t<br><br>\n\t<p>\n");
+ 
+   if (duflag) {
+     psize(buf, tot.size);
+-    fprintf(outfile,"%s%s used in ", buf, hflag || siflag? "" : " bytes");
++    fprintf(outfile,"\t\t%s%s used in ", buf, hflag || siflag? "" : " bytes");
+   }
+   if (dflag)
+-    fprintf(outfile,"%ld director%s\n",tot.dirs,(tot.dirs==1? "y":"ies"));
+-  else
+-    fprintf(outfile,"%ld director%s, %ld file%s\n",tot.dirs,(tot.dirs==1? "y":"ies"),tot.files,(tot.files==1? "":"s"));
++    fprintf(outfile,"\t\t%ld director%s\n",tot.dirs,(tot.dirs==1? "y":"ies"));
++  else {
++	  tot.dirs = tot.dirs-1;
++    fprintf(outfile,"\t\t%ld adresář%s, %ld soubor%s\n",tot.dirs,return_suffix(tot.dirs, "e", "ů"),tot.files,return_suffix(tot.files, "y", "ů"));
++  }
+ 
+-  fprintf(outfile, "\n</p>\n");
++  fprintf(outfile, "\t</p>\n");
+ }

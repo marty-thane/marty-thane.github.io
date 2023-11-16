@@ -1,0 +1,132 @@
+% Sablona pro maturitni praci v LaTeXu. Pro kompilaci lze vyuzit pandoc.
+% Validni promenne jsou nazev, vedouci, autor, organizace, header-includes.
+
+% trida dokumentu
+\documentclass[12pt,a4paper,oneside]{article}
+
+% jazyk
+\usepackage[czech]{babel} 
+
+% kodovani
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% pismo
+\usepackage{times}
+
+% obrazky, odkazy
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+% nadpisy, verbatim
+\usepackage{titlesec}
+\usepackage{fancyvrb}
+\usepackage{fvextra}
+
+% okraje
+\usepackage[a4paper,left=30mm,right=25mm,top=25mm,bottom=25mm]{geometry}
+
+% radkovani
+\linespread{1.5}
+\parskip6pt
+
+% zakaz sirotku
+\widowpenalty10000
+\clubpenalty10000
+
+% bloky kodu nerozdelovat
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{}
+\fvset{samepage=true}
+
+% sekce necislovat
+\titleformat{\section}
+  [hang]
+  {\normalfont\bfseries\Large}
+  {}
+  {0pt}
+  {}
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{\arabic{subsection}}
+
+% sekce zacinat na nove strance
+\newcommand{\sectionbreak}{\clearpage}
+
+% cislovani stran vpravo dole
+\makeatletter
+\renewcommand*{\ps@plain}{
+  \let\@mkboth\@gobbletwo
+  \let\@oddhead\@empty
+  \def\@oddfoot{
+    \reset@font
+    \hfil
+    \thepage
+    
+  }
+  \let\@evenhead\@empty
+  \let\@evenfoot\@oddfoot
+}
+\makeatother
+
+% obrazky na sirku textu, zachovat pomer stran
+\setkeys{Gin}{width=\textwidth,keepaspectratio}
+
+% tightlist pro pandoc
+\providecommand{\tightlist}{
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+}
+
+% dodatecne prikazy
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+\begin{document}
+
+% titulni strana
+\pagestyle{empty}
+\begin{center}    
+\Large $organizace$
+
+\vspace*{\fill}
+
+\Huge
+MATURITNÍ PRÁCE
+
+$nazev$
+\vspace{2em}
+\vspace*{\fill}
+
+\end{center}      
+
+{\Large
+$vedouci$
+
+$autor$
+\hfill \today}
+
+\clearpage
+
+% prohlaseni
+\vspace*{\fill}
+
+Tímto prohlašuji, že jsem maturitní práci vypracoval samostatně a s využitím uvedených zdrojů.
+
+V .................... dne ........................
+    
+\hspace{8.5cm} \makebox[2in]{\hrulefill}
+                    
+\hspace{8.5cm} \makebox[2in]{Podpis autora}    
+
+\clearpage
+
+% obsah
+\tableofcontents
+\clearpage
+
+% samotny text
+\setcounter{page}{1}                                         
+\pagestyle{plain}
+
+$body$
+
+\end{document}
