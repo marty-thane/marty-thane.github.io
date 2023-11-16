@@ -4,7 +4,7 @@
 		<title>Martinova Pochutina</title>
 		<link>https://pochutina.mzf.cz</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Thu, 16 Nov 2023 16:42:53 +0100</lastBuildDate>
+		<lastBuildDate>Thu, 16 Nov 2023 16:48:35 +0100</lastBuildDate>
 		<item>
 			<title>maturitni_prace.pdf</title>
 			<link>https://pochutina.mzf.cz/dokumenty/maturitni_prace.pdf</link>
@@ -237,13 +237,13 @@
 			<title>master</title>
 			<link>https://pochutina.mzf.cz/.git/refs/heads/master</link>
 			<category>.git</category>
-			<pubDate>Thu, 16 Nov 2023 16:40:22 +0100</pubDate>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
 		</item>
 		<item>
 			<title>master</title>
 			<link>https://pochutina.mzf.cz/.git/refs/remotes/origin/master</link>
 			<category>.git</category>
-			<pubDate>Thu, 16 Nov 2023 16:42:04 +0100</pubDate>
+			<pubDate>Thu, 16 Nov 2023 16:43:31 +0100</pubDate>
 		</item>
 		<item>
 			<title>HEAD</title>
@@ -450,6 +450,12 @@
 			<pubDate>Thu, 16 Nov 2023 10:40:17 +0100</pubDate>
 		</item>
 		<item>
+			<title>ff2560a93935ea79893357812c05454a9037aa</title>
+			<link>https://pochutina.mzf.cz/.git/objects/37/ff2560a93935ea79893357812c05454a9037aa</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:03 +0100</pubDate>
+		</item>
+		<item>
 			<title>228c40b41cecf33da1cd3eb9d85565c64f860a</title>
 			<link>https://pochutina.mzf.cz/.git/objects/af/228c40b41cecf33da1cd3eb9d85565c64f860a</link>
 			<category>.git</category>
@@ -606,52 +612,124 @@
 			<pubDate>Thu, 16 Nov 2023 16:40:22 +0100</pubDate>
 		</item>
 		<item>
+			<title>2e75c6cb8b5027ee2c8bb270719ffb0e504385</title>
+			<link>https://pochutina.mzf.cz/.git/objects/df/2e75c6cb8b5027ee2c8bb270719ffb0e504385</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:03 +0100</pubDate>
+		</item>
+		<item>
+			<title>c663323492b3d31bdcf5d4d36dad9163274211</title>
+			<link>https://pochutina.mzf.cz/.git/objects/14/c663323492b3d31bdcf5d4d36dad9163274211</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:03 +0100</pubDate>
+		</item>
+		<item>
+			<title>cef590e158157d409d86c3a045ddaebca730de</title>
+			<link>https://pochutina.mzf.cz/.git/objects/56/cef590e158157d409d86c3a045ddaebca730de</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:03 +0100</pubDate>
+		</item>
+		<item>
+			<title>78f8931e1fba04ee51d3525070c975c3e475d4</title>
+			<link>https://pochutina.mzf.cz/.git/objects/93/78f8931e1fba04ee51d3525070c975c3e475d4</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:03 +0100</pubDate>
+		</item>
+		<item>
+			<title>4ff6a87fd863a2a0bb4374564475a553a3c614</title>
+			<link>https://pochutina.mzf.cz/.git/objects/46/4ff6a87fd863a2a0bb4374564475a553a3c614</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:03 +0100</pubDate>
+		</item>
+		<item>
+			<title>ea96810ae0cb32a28e87d75dad01fed31acfd3</title>
+			<link>https://pochutina.mzf.cz/.git/objects/75/ea96810ae0cb32a28e87d75dad01fed31acfd3</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:03 +0100</pubDate>
+		</item>
+		<item>
+			<title>3f7bb4fceb8fe8ed841c05874bdda77eb6119f</title>
+			<link>https://pochutina.mzf.cz/.git/objects/78/3f7bb4fceb8fe8ed841c05874bdda77eb6119f</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
+		</item>
+		<item>
+			<title>43b1bac308e733890e05e7192f939db506d59f</title>
+			<link>https://pochutina.mzf.cz/.git/objects/39/43b1bac308e733890e05e7192f939db506d59f</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
+		</item>
+		<item>
+			<title>5812a44a38621aafbd99e01599706e98df054f</title>
+			<link>https://pochutina.mzf.cz/.git/objects/5d/5812a44a38621aafbd99e01599706e98df054f</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
+		</item>
+		<item>
+			<title>c591c865e36be969ea70201e20097bddb0e50b</title>
+			<link>https://pochutina.mzf.cz/.git/objects/97/c591c865e36be969ea70201e20097bddb0e50b</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
+		</item>
+		<item>
+			<title>d5c13849b633ccf3ccc4f8b414995a953946e5</title>
+			<link>https://pochutina.mzf.cz/.git/objects/34/d5c13849b633ccf3ccc4f8b414995a953946e5</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
+		</item>
+		<item>
+			<title>24f78dcc9748ba8e644c5c3725b7157c86ab50</title>
+			<link>https://pochutina.mzf.cz/.git/objects/e6/24f78dcc9748ba8e644c5c3725b7157c86ab50</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
+		</item>
+		<item>
+			<title>9bc492ac42b7b133dfdc7c7db370203c941d7a</title>
+			<link>https://pochutina.mzf.cz/.git/objects/d9/9bc492ac42b7b133dfdc7c7db370203c941d7a</link>
+			<category>.git</category>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
+		</item>
+		<item>
 			<title>COMMIT_EDITMSG</title>
 			<link>https://pochutina.mzf.cz/.git/COMMIT_EDITMSG</link>
 			<category>.git</category>
-			<pubDate>Thu, 16 Nov 2023 16:40:22 +0100</pubDate>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
 		</item>
 		<item>
 			<title>HEAD</title>
 			<link>https://pochutina.mzf.cz/.git/logs/HEAD</link>
 			<category>.git</category>
-			<pubDate>Thu, 16 Nov 2023 16:40:22 +0100</pubDate>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
 		</item>
 		<item>
 			<title>master</title>
 			<link>https://pochutina.mzf.cz/.git/logs/refs/heads/master</link>
 			<category>.git</category>
-			<pubDate>Thu, 16 Nov 2023 16:40:22 +0100</pubDate>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
 		</item>
 		<item>
 			<title>master</title>
 			<link>https://pochutina.mzf.cz/.git/logs/refs/remotes/origin/master</link>
 			<category>.git</category>
-			<pubDate>Thu, 16 Nov 2023 16:42:04 +0100</pubDate>
+			<pubDate>Thu, 16 Nov 2023 16:43:31 +0100</pubDate>
 		</item>
 		<item>
 			<title>index</title>
 			<link>https://pochutina.mzf.cz/.git/index</link>
 			<category>.git</category>
-			<pubDate>Thu, 16 Nov 2023 16:40:22 +0100</pubDate>
+			<pubDate>Thu, 16 Nov 2023 16:43:25 +0100</pubDate>
 		</item>
 		<item>
 			<title>config</title>
 			<link>https://pochutina.mzf.cz/.git/config</link>
 			<category>.git</category>
-			<pubDate>Thu, 16 Nov 2023 16:42:04 +0100</pubDate>
+			<pubDate>Thu, 16 Nov 2023 16:43:31 +0100</pubDate>
 		</item>
 		<item>
 			<title>rss.sh</title>
 			<link>https://pochutina.mzf.cz/.tools/rss.sh</link>
 			<category>.tools</category>
 			<pubDate>Mon, 20 Feb 2023 16:53:52 +0100</pubDate>
-		</item>
-		<item>
-			<title>html.sh</title>
-			<link>https://pochutina.mzf.cz/.tools/html.sh</link>
-			<category>.tools</category>
-			<pubDate>Fri, 08 Sep 2023 23:17:54 +0200</pubDate>
 		</item>
 		<item>
 			<title>header.html</title>
@@ -664,6 +742,12 @@
 			<link>https://pochutina.mzf.cz/.tools/footer.html</link>
 			<category>.tools</category>
 			<pubDate>Sun, 03 Sep 2023 11:36:06 +0200</pubDate>
+		</item>
+		<item>
+			<title>html.sh</title>
+			<link>https://pochutina.mzf.cz/.tools/html.sh</link>
+			<category>.tools</category>
+			<pubDate>Thu, 16 Nov 2023 16:48:00 +0100</pubDate>
 		</item>
 		<item>
 			<title>.gitignore</title>
