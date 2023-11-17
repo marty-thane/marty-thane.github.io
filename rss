@@ -4,7 +4,7 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Fri, 17 Nov 2023 22:07:01 +0100</lastBuildDate>
+		<lastBuildDate>Fri, 17 Nov 2023 22:11:09 +0100</lastBuildDate>
 		<item>
 			<title>maturitni_prace.pdf</title>
 			<link>https://marty-thane.github.io/dokumenty/maturitni_prace.pdf</link>
@@ -136,12 +136,6 @@
 			<link>https://marty-thane.github.io/videa/pointers_by_example.mp4</link>
 			<category>videa</category>
 			<pubDate>Tue, 01 Aug 2023 16:26:16 +0200</pubDate>
-		</item>
-		<item>
-			<title>icon.ico</title>
-			<link>https://marty-thane.github.io/icon.ico</link>
-			<category>icon.ico</category>
-			<pubDate>Fri, 17 Nov 2023 21:59:41 +0100</pubDate>
 		</item>
 	</channel>
 </rss>
