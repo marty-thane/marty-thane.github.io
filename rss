@@ -4,138 +4,126 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Fri, 17 Nov 2023 22:11:09 +0100</lastBuildDate>
+		<lastBuildDate>Sat, 18 Nov 2023 13:49:36 +0100</lastBuildDate>
 		<item>
 			<title>maturitni_prace.pdf</title>
 			<link>https://marty-thane.github.io/dokumenty/maturitni_prace.pdf</link>
-			<category>dokumenty</category>
 			<pubDate>Mon, 06 Mar 2023 19:23:15 +0100</pubDate>
+			<category>dokumenty</category>
 		</item>
 		<item>
 			<title>cetba.html</title>
 			<link>https://marty-thane.github.io/dokumenty/cetba.html</link>
-			<category>dokumenty</category>
 			<pubDate>Wed, 15 Nov 2023 19:50:11 +0100</pubDate>
+			<category>dokumenty</category>
 		</item>
 		<item>
 			<title>kvarteto_drama.pdf</title>
 			<link>https://marty-thane.github.io/dokumenty/kvarteto_drama.pdf</link>
-			<category>dokumenty</category>
 			<pubDate>Wed, 09 Aug 2023 13:57:05 +0200</pubDate>
+			<category>dokumenty</category>
 		</item>
 		<item>
 			<title>holy-water.flac</title>
 			<link>https://marty-thane.github.io/hudba/holy-water.flac</link>
-			<category>hudba</category>
 			<pubDate>Mon, 20 Feb 2023 16:53:49 +0100</pubDate>
+			<category>hudba</category>
 		</item>
 		<item>
 			<title>stranger_DEMO.flac</title>
 			<link>https://marty-thane.github.io/hudba/stranger_DEMO.flac</link>
-			<category>hudba</category>
 			<pubDate>Mon, 20 Feb 2023 16:53:48 +0100</pubDate>
+			<category>hudba</category>
 		</item>
 		<item>
 			<title>sunday.flac</title>
 			<link>https://marty-thane.github.io/hudba/sunday.flac</link>
-			<category>hudba</category>
 			<pubDate>Mon, 20 Feb 2023 16:53:49 +0100</pubDate>
+			<category>hudba</category>
 		</item>
 		<item>
 			<title>plenty.flac</title>
 			<link>https://marty-thane.github.io/hudba/plenty.flac</link>
-			<category>hudba</category>
 			<pubDate>Sun, 05 Mar 2023 11:58:13 +0100</pubDate>
+			<category>hudba</category>
 		</item>
 		<item>
 			<title>your-song.flac</title>
 			<link>https://marty-thane.github.io/hudba/your-song.flac</link>
-			<category>hudba</category>
 			<pubDate>Wed, 31 May 2023 14:56:23 +0200</pubDate>
+			<category>hudba</category>
 		</item>
 		<item>
 			<title>all-around.flac</title>
 			<link>https://marty-thane.github.io/hudba/all-around.flac</link>
-			<category>hudba</category>
 			<pubDate>Mon, 10 Jul 2023 13:09:55 +0200</pubDate>
+			<category>hudba</category>
 		</item>
 		<item>
 			<title>what-were-gonna-do.flac</title>
 			<link>https://marty-thane.github.io/hudba/what-were-gonna-do.flac</link>
-			<category>hudba</category>
 			<pubDate>Mon, 20 Feb 2023 16:53:49 +0100</pubDate>
+			<category>hudba</category>
 		</item>
 		<item>
 			<title>sablona.tex</title>
 			<link>https://marty-thane.github.io/programy/sablona.tex</link>
-			<category>programy</category>
 			<pubDate>Fri, 30 Jun 2023 13:03:36 +0200</pubDate>
+			<category>programy</category>
 		</item>
 		<item>
 			<title>far_windows.exe</title>
 			<link>https://marty-thane.github.io/programy/far_windows.exe</link>
-			<category>programy</category>
 			<pubDate>Mon, 20 Feb 2023 16:53:52 +0100</pubDate>
+			<category>programy</category>
 		</item>
 		<item>
 			<title>czech_tree.diff</title>
 			<link>https://marty-thane.github.io/programy/czech_tree.diff</link>
-			<category>programy</category>
 			<pubDate>Sat, 09 Sep 2023 20:51:41 +0200</pubDate>
+			<category>programy</category>
 		</item>
 		<item>
 			<title>faktorial.go</title>
 			<link>https://marty-thane.github.io/programy/faktorial.go</link>
-			<category>programy</category>
 			<pubDate>Sat, 09 Sep 2023 22:24:33 +0200</pubDate>
-		</item>
-		<item>
-			<title>beep.wav</title>
-			<link>https://marty-thane.github.io/programy/javascript/.assets/beep.wav</link>
 			<category>programy</category>
-			<pubDate>Thu, 07 Sep 2023 20:47:06 +0200</pubDate>
-		</item>
-		<item>
-			<title>boop.wav</title>
-			<link>https://marty-thane.github.io/programy/javascript/.assets/boop.wav</link>
-			<category>programy</category>
-			<pubDate>Thu, 07 Sep 2023 20:48:40 +0200</pubDate>
 		</item>
 		<item>
 			<title>flappy_bird.js</title>
 			<link>https://marty-thane.github.io/programy/javascript/flappy_bird.js</link>
-			<category>programy</category>
 			<pubDate>Sat, 09 Sep 2023 14:47:13 +0200</pubDate>
+			<category>programy</category>
 		</item>
 		<item>
 			<title>flappy_bird.html</title>
 			<link>https://marty-thane.github.io/programy/javascript/flappy_bird.html</link>
-			<category>programy</category>
 			<pubDate>Sat, 09 Sep 2023 20:15:21 +0200</pubDate>
+			<category>programy</category>
 		</item>
 		<item>
 			<title>snake.html</title>
 			<link>https://marty-thane.github.io/programy/javascript/snake.html</link>
-			<category>programy</category>
 			<pubDate>Sat, 09 Sep 2023 20:15:30 +0200</pubDate>
+			<category>programy</category>
 		</item>
 		<item>
 			<title>snake.js</title>
 			<link>https://marty-thane.github.io/programy/javascript/snake.js</link>
-			<category>programy</category>
 			<pubDate>Fri, 22 Sep 2023 17:07:07 +0200</pubDate>
+			<category>programy</category>
 		</item>
 		<item>
 			<title>learn_godot_in_10_minutes.mp4</title>
 			<link>https://marty-thane.github.io/videa/learn_godot_in_10_minutes.mp4</link>
-			<category>videa</category>
 			<pubDate>Mon, 20 Feb 2023 16:53:51 +0100</pubDate>
+			<category>videa</category>
 		</item>
 		<item>
 			<title>pointers_by_example.mp4</title>
 			<link>https://marty-thane.github.io/videa/pointers_by_example.mp4</link>
-			<category>videa</category>
 			<pubDate>Tue, 01 Aug 2023 16:26:16 +0200</pubDate>
+			<category>videa</category>
 		</item>
 	</channel>
 </rss>
