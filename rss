@@ -4,13 +4,7 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Thu, 14 Dec 2023 10:02:55 +0100</lastBuildDate>
-		<item>
-			<title>maturitni_prace.pdf</title>
-			<link>https://marty-thane.github.io/dokumenty/maturitni_prace.pdf</link>
-			<pubDate>Mon, 06 Mar 2023 19:23:15 +0100</pubDate>
-			<category>dokumenty</category>
-		</item>
+		<lastBuildDate>Thu, 21 Dec 2023 13:41:12 +0100</lastBuildDate>
 		<item>
 			<title>cetba.html</title>
 			<link>https://marty-thane.github.io/dokumenty/cetba.html</link>
@@ -27,6 +21,18 @@
 			<title>llms_prezentace.pdf</title>
 			<link>https://marty-thane.github.io/dokumenty/llms_prezentace.pdf</link>
 			<pubDate>Thu, 07 Dec 2023 15:03:38 +0100</pubDate>
+			<category>dokumenty</category>
+		</item>
+		<item>
+			<title>konfigurace_os_linux.pdf</title>
+			<link>https://marty-thane.github.io/dokumenty/konfigurace_os_linux.pdf</link>
+			<pubDate>Mon, 06 Mar 2023 19:23:15 +0100</pubDate>
+			<category>dokumenty</category>
+		</item>
+		<item>
+			<title>dukaz_moorova_zakona.pdf</title>
+			<link>https://marty-thane.github.io/dokumenty/dukaz_moorova_zakona.pdf</link>
+			<pubDate>Wed, 20 Dec 2023 22:31:23 +0100</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
@@ -117,6 +123,12 @@
 			<title>snake.js</title>
 			<link>https://marty-thane.github.io/programy/javascript/snake.js</link>
 			<pubDate>Fri, 22 Sep 2023 17:07:07 +0200</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>sablona2.tex</title>
+			<link>https://marty-thane.github.io/programy/sablona2.tex</link>
+			<pubDate>Thu, 21 Dec 2023 11:22:21 +0100</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
