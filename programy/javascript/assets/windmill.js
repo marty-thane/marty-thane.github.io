@@ -10,7 +10,7 @@ let windmill
 let click
 
 function preload() {
-	click = new Audio(".assets/click.wav")
+	click = new Audio("assets/click.wav")
 	click.load()
 }
 
