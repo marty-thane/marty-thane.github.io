@@ -4,7 +4,7 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Wed, 27 Dec 2023 17:04:10 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 27 Dec 2023 17:31:43 +0100</lastBuildDate>
 		<item>
 			<title>cetba.html</title>
 			<link>https://marty-thane.github.io/dokumenty/cetba.html</link>
@@ -102,21 +102,39 @@
 			<category>programy</category>
 		</item>
 		<item>
+			<title>snake.js</title>
+			<link>https://marty-thane.github.io/programy/javascript/snake.js</link>
+			<pubDate>Fri, 22 Sep 2023 17:07:07 +0200</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>flappy_bird.js</title>
+			<link>https://marty-thane.github.io/programy/javascript/flappy_bird.js</link>
+			<pubDate>Sat, 09 Sep 2023 14:47:13 +0200</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
 			<title>flappy_bird.html</title>
 			<link>https://marty-thane.github.io/programy/javascript/flappy_bird.html</link>
-			<pubDate>Wed, 27 Dec 2023 17:03:34 +0100</pubDate>
+			<pubDate>Wed, 27 Dec 2023 17:30:14 +0100</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
 			<title>snake.html</title>
 			<link>https://marty-thane.github.io/programy/javascript/snake.html</link>
-			<pubDate>Wed, 27 Dec 2023 17:03:44 +0100</pubDate>
+			<pubDate>Wed, 27 Dec 2023 17:30:21 +0100</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
 			<title>windmill.html</title>
 			<link>https://marty-thane.github.io/programy/javascript/windmill.html</link>
-			<pubDate>Wed, 27 Dec 2023 17:03:55 +0100</pubDate>
+			<pubDate>Wed, 27 Dec 2023 17:30:27 +0100</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>windmill.js</title>
+			<link>https://marty-thane.github.io/programy/javascript/windmill.js</link>
+			<pubDate>Wed, 27 Dec 2023 17:31:24 +0100</pubDate>
 			<category>programy</category>
 		</item>
 		<item>

@@ -2,11 +2,17 @@ const WIDTH = 800
 const HEIGHT = 600
 const FPS = 60
 const DIST_TRESHOLD = 2
-const FRAME_TRESHOLD = 4
+const FRAME_TRESHOLD = 5
 const SPEED = 0.02
 
 let points = []
 let windmill
+let click
+
+function preload() {
+	click = new Audio(".assets/click.wav")
+	click.load()
+}
 
 function setup() {
 	createCanvas(WIDTH, HEIGHT)
@@ -28,6 +34,7 @@ function draw() {
 		p.draw()
 		if (isColliding(windmill, p) && frameCount > FRAME_TRESHOLD) {
 			if (windmill.x != p.x && windmill.y != p.y) {
+				playSound(click)
 				windmill.x = p.x
 				windmill.y = p.y
 				p.score += 1
@@ -53,6 +60,11 @@ function isColliding(ln, pt) {
     let d = abs((x2 - x1) * (y1 - pt.y) - (x1 - pt.x) * (y2 - y1)) / dist(x1, y1, x2, y2)
 
     return d <= DIST_TRESHOLD;
+}
+
+function playSound(audio) {
+  let sound = audio.cloneNode()
+  sound.play()
 }
 
 class Point {
