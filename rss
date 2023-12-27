@@ -4,7 +4,7 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Sun, 24 Dec 2023 13:11:28 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 27 Dec 2023 17:01:12 +0100</lastBuildDate>
 		<item>
 			<title>cetba.html</title>
 			<link>https://marty-thane.github.io/dokumenty/cetba.html</link>
@@ -123,6 +123,18 @@
 			<title>snake.js</title>
 			<link>https://marty-thane.github.io/programy/javascript/snake.js</link>
 			<pubDate>Fri, 22 Sep 2023 17:07:07 +0200</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>windmill.js</title>
+			<link>https://marty-thane.github.io/programy/javascript/windmill.js</link>
+			<pubDate>Wed, 27 Dec 2023 16:59:14 +0100</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>windmill.html</title>
+			<link>https://marty-thane.github.io/programy/javascript/windmill.html</link>
+			<pubDate>Wed, 27 Dec 2023 17:00:14 +0100</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
