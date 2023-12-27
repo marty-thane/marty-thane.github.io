@@ -2,7 +2,7 @@ const WIDTH = 800
 const HEIGHT = 600
 const FPS = 60
 const DIST_TRESHOLD = 2
-const FRAME_TRESHOLD = 5
+const FRAME_TRESHOLD = 4
 const SPEED = 0.02
 
 let points = []
@@ -15,7 +15,8 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(WIDTH, HEIGHT)
+	game = createCanvas(WIDTH, HEIGHT)
+	game.canvas.style = "" // clear defaults, use page css instead
 
 	let p = new Point(width/2, height/2)
 	points.push(p)
@@ -24,7 +25,7 @@ function setup() {
 }
 
 function draw() {
-	background(204)
+	background(0)
 	frameRate(FPS)
 
 	windmill.rotate()
@@ -33,31 +34,41 @@ function draw() {
 	for (let p of points) {
 		p.draw()
 		if (isColliding(windmill, p) && frameCount > FRAME_TRESHOLD) {
-			if (windmill.x != p.x && windmill.y != p.y) {
-				playSound(click)
-				windmill.x = p.x
-				windmill.y = p.y
-				p.score += 1
-				frameCount = 0
-			}
+			playSound(click)
+			windmill.x = p.x
+			windmill.y = p.y
+			p.score += 1
+			frameCount = 0
 		}
 	}
 }
 
 // spawn new points
 function mousePressed() {
-	let p = new Point(mouseX, mouseY)
-	points.push(p)
+	// proceed only if click inside of canvas
+	if (isBetween(mouseX, 0, width) && isBetween(mouseY, 0, height)) {
+		let p = new Point(mouseX, mouseY)
+		points.push(p)
+	}
 }
 
-function isColliding(ln, pt) {
+function isBetween(num, min, max) {
+    return ((num-min)*(num-max) <= 0);
+}
+
+function isColliding(ln, p) {
+	// do not proceed if already switched to that point
+	if (ln.x == p.x && ln.y == p.y) {
+		return false
+	}
+
     let x1 = ln.coords[0]
     let y1 = ln.coords[1]
     let x2 = ln.coords[2]
     let y2 = ln.coords[3]
 
 	// calculate the distance using a formula
-    let d = abs((x2 - x1) * (y1 - pt.y) - (x1 - pt.x) * (y2 - y1)) / dist(x1, y1, x2, y2)
+    let d = abs((x2 - x1) * (y1 - p.y) - (x1 - p.x) * (y2 - y1)) / dist(x1, y1, x2, y2)
 
     return d <= DIST_TRESHOLD;
 }
@@ -75,11 +86,12 @@ class Point {
 	}
 
 	draw() {
+		stroke("white")
+		strokeWeight(5)
+		point(this.x, this.y)
 		strokeWeight(0)
 		fill(255)
-		ellipse(this.x, this.y, 5, 5)
-		fill(0)
-		text(this.score, this.x + 5, this.y + 12)
+		text(this.score, this.x + 5, this.y + 13)
 	}
 }
 
