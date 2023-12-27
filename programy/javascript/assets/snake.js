@@ -46,7 +46,7 @@ function spawnFood() {
 
 	// redo if spawned inside of snake
 	for (let cell of snake) {
-		if (cell.x === food.x && cell.y === food.y) {
+		if (cell.x == food.x && cell.y == food.y) {
 			return spawnFood()
 		}
 	}
@@ -65,7 +65,7 @@ function keyPressed(event) {
 
 function updateVel(dir) {
 	// do not allow the player to go backwards
-	if (dir.x === -vel.x && dir.y === -vel.y) {
+	if (dir.x == -vel.x && dir.y == -vel.y) {
 		return
 	}
 	vel.x = dir.x
@@ -108,7 +108,7 @@ function gameLoop() {
 	}
 
 	// eat food
-	if (food.x === pos.x && food.y === pos.y) {
+	if (food.x == pos.x && food.y == pos.y) {
 		snake.push({...pos})
 		pos.x += vel.x
 		pos.y += vel.y
@@ -121,7 +121,7 @@ function gameLoop() {
 	if (vel.x || vel.y) {
 		for (let cell of snake) {
 			// reset if colliding with itself
-			if (cell.x === pos.x && cell.y === pos.y) {
+			if (cell.x == pos.x && cell.y == pos.y) {
 				boop.play()
 				return init()
 			}

@@ -66,7 +66,7 @@ function spawnWall() {
 
 // jump if key pressed
 document.addEventListener("keydown", (event) => {
-	if (event.keyCode === 38) {
+	if (event.keyCode == 32) {
 		vel.y = -JUMP_FORCE
 	}
 })
