@@ -1,9 +1,9 @@
 const WIDTH = 800
 const HEIGHT = 600
 const FPS = 60
-const DIST_TRESHOLD = 2
-const FRAME_TRESHOLD = 4
-const SPEED = 0.02
+const DIST_TRESHOLD = 3 // prevent missing a point
+const FRAME_TRESHOLD = 6 // prevent snapping back and forth
+const SPEED = 0.015
 
 let points = []
 let windmill
