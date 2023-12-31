@@ -2,7 +2,7 @@ const BOID_SIZE = 4
 const BOID_SPEED = 3.5
 const BOID_SIGHT = 80
 const MARGIN = 70
-const SEPARATION_FORCE = 2.5
+const SEPARATION_FORCE = 2
 const COHESION_FORCE = 0.015
 const ALIGNMENT_FORCE = 0.018
 const EDGE_FORCE = 0.008
@@ -45,7 +45,7 @@ function draw() {
 	}
 
 	fill(...FG_COLOR)
-	text("controls: (s)eparation | (c)ohesion | (a)lignment", 8, HEIGHT - 10)
+	text("controls: (s)eparation | (c)ohesion | (a)lignment", 8, height - 10)
 }
 
 // toggle flocking behavior via keyboard
@@ -122,14 +122,14 @@ class Boid {
 		if (this.pos.x < MARGIN) {
 			v.add(MARGIN - this.pos.x, 0)
 		}
-		else if (this.pos.x > WIDTH - MARGIN) {
-			v.add(WIDTH - MARGIN - this.pos.x, 0)
+		else if (this.pos.x > width - MARGIN) {
+			v.add(width - MARGIN - this.pos.x, 0)
 		}
 		if (this.pos.y < MARGIN) {
 			v.add(0, MARGIN - this.pos.y)
 		}
-		else if (this.pos.y > HEIGHT - MARGIN) {
-			v.add(0, HEIGHT - MARGIN - this.pos.y)
+		else if (this.pos.y > height - MARGIN) {
+			v.add(0, height - MARGIN - this.pos.y)
 		}
 		v.mult(EDGE_FORCE)
 		this.vel.add(v)
