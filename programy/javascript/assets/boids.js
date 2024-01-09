@@ -11,6 +11,8 @@ const JITTER_FORCE = 0.08
 const BG_COLOR = [22, 26, 48]
 const FG_COLOR = [240, 236, 229]
 
+const FPS = 60
+
 let separation = true
 let cohesion = true
 let alignment = true
@@ -23,7 +25,7 @@ function setup() {
 
 function draw() {
 	background(...BG_COLOR)
-	frameRate(60)
+	frameRate(FPS)
 	noStroke()
 
 	// spawn new boids
