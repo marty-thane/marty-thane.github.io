@@ -8,8 +8,9 @@ const ALIGNMENT_FORCE = 0.018
 const EDGE_FORCE = 0.008
 const JITTER_FORCE = 0.08
 
-const BG_COLOR = [22, 26, 48]
-const FG_COLOR = [240, 236, 229]
+const BG_COLOR = "#161A30"
+const BOID_COLOR = "#917197"
+const TEXT_COLOR = "#A9AABC"
 
 const FPS = 60
 
@@ -24,7 +25,7 @@ function setup() {
 }
 
 function draw() {
-	background(...BG_COLOR)
+	background(BG_COLOR)
 	frameRate(FPS)
 	noStroke()
 
@@ -46,7 +47,7 @@ function draw() {
 		boid.draw()
 	}
 
-	fill(...FG_COLOR)
+	fill(TEXT_COLOR)
 	text("controls: (s)eparation | (c)ohesion | (a)lignment", 8, height - 10)
 }
 
@@ -149,9 +150,7 @@ class Boid {
 	}
 
 	draw() {
-		let brightness = this.vel.mag() / BOID_SPEED // color parcially proportional to speed
-		brightness = (brightness / 2) + 0.5
-		fill(...multiply(FG_COLOR, brightness))
+		fill(BOID_COLOR)
 		let angle = this.vel.heading() + PI/2
 		push()
 		translate(this.pos.x, this.pos.y)
