@@ -1,0 +1,218 @@
+% Sablona pro seminarni praci v TeXu. Pro kompilaci lze vyuzit `pdflatex` nebo
+% `pandoc`. Sablona je koncipovana tak, aby i mene znaly uzivatel dokazal
+% nalezt a doladit prislusna nastaveni.
+
+\documentclass[12pt,a4paper,oneside]{article}
+
+% ---------------------------- INCLUDES ---------------------------- %
+
+% format pro archivaci
+\usepackage[a-1b]{pdfx}
+
+% jazyk a kodovani
+\usepackage[czech]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+
+% pismo
+\usepackage{times}
+
+% obrazky, odkazy
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{hyperref}
+
+% obsah, nadpisy, verbatim
+\usepackage{titletoc}
+\usepackage{titlesec}
+\usepackage{fancyvrb}
+\usepackage{fvextra}
+
+% poznamky pro citace
+\usepackage{enotez}
+
+% velikost strany, okraje
+\usepackage[
+	a4paper,
+	left=30mm,
+	right=25mm,
+	top=25mm,
+	bottom=25mm
+]{geometry}
+
+% zlepseni vzhledu pomoci microtypingu
+\usepackage[
+	activate={true,nocompatibility},
+	tracking=true,
+	kerning=true,
+	spacing=true,
+	factor=1100,
+	stretch=10,
+	shrink=10
+	final,
+]{microtype}
+
+% ---------------------------- FORMATOVANI ---------------------------- %
+
+% radkovani
+\linespread{1.5}
+\parskip6pt
+
+% zakaz sirotku (prvni/posledni radek na jine strance nez zbytek odstavce)
+\widowpenalty10000
+\clubpenalty10000
+
+% desetinne cislovani nadpisu sekci a subsekci v textu a obsahu
+\titleformat{\section}
+	{\normalfont\Large\bfseries}
+	{\thesection.}
+	{1em}
+	{}
+\titleformat{\subsection}
+	{\normalfont\large\bfseries}
+	{\thesubsection.}
+	{1em}
+	{}
+\titlecontents{section}
+	[0em]
+	{\bfseries}
+	{\thecontentslabel.\ }
+	{}
+	{\hfill\contentspage}
+	[\addvspace{1em}]
+\titlecontents{subsection}
+	[2em]
+	{}
+	{\thecontentslabel.\ }
+	{}
+	{\dotfill\contentspage}
+	[\addvspace{1em}]
+
+% sekce zacinat na nove strance
+\newcommand{\sectionbreak}{\clearpage}
+
+% odkazy formatovat jako zbytek textu
+\urlstyle{same}
+
+% bloky kodu nerozdelovat (ponechat na stejne strance)
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{}
+\fvset{samepage=true}
+
+% poznamky \endnote{} jako superskript v "[]", nastaveni a format poznamek
+\newcommand{\makenote}[1]{\textsuperscript{[#1]}}
+\setenotez{
+	list-name=Odkazy,
+	list-style=custom,
+	backref=true,
+	mark-cs=\makenote,
+}
+\DeclareInstance{enotez-list}{custom}{list}
+{
+	heading = \section*{#1},
+	format = \normalfont,
+	number = [#1],
+	list-type = description,
+}
+
+% cislovani stran vpravo dole
+\makeatletter
+\renewcommand*{\ps@plain}{
+	\let\@mkboth\@gobbletwo
+	\let\@oddhead\@empty
+	\def\@oddfoot{
+	\reset@font
+	\hfil
+	\thepage
+	
+	}
+	\let\@evenhead\@empty
+	\let\@evenfoot\@oddfoot
+}
+\makeatother
+
+% u obrazku zachovat pomer stran
+\setkeys{Gin}{keepaspectratio}
+
+% ---------------------------- UZIVATELSKE FUNKCE ---------------------------- %
+
+% formatovani seznamu, vklada se do prostredi
+\newcommand{\tightlist}{
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+}
+
+% vkladani obrazku, argumenty jsou popis a cesta, volitelný argument sirka
+% v pomeru k sirce textu
+\newcommand{\img}[3][0.76]{
+	\begin{figure}[H]
+	    \vspace{1em}
+		\renewcommand{\figurename}{Figura}
+		\centering
+		\adjustbox{frame=1pt}{
+			\includegraphics[width=#1\textwidth]{#3}
+		}
+		\caption{#2}
+	    \vspace{-1em}
+	\end{figure}
+}
+
+% ---------------------------- TELO DOKUMENTU ---------------------------- %
+
+\begin{document}
+\pagestyle{empty} % uvodni strany bez cislovani
+
+% titulni strana
+\begin{center}
+\Large
+$organizace$
+
+$fakulta$
+
+\vspace*{\fill}
+
+\Huge
+$nazev$
+
+\Large
+SEMINÁRNÍ PRÁCE
+
+\vspace{4em}
+\vspace*{\fill}
+
+\end{center}
+
+{\setlength\parindent{0pt} % bez odrazeni
+Vypracoval: $autor$
+
+Vedoucí práce: $vedouci$
+\hfill $misto$ \the\year}
+
+\clearpage
+
+% prohlaseni
+\vspace*{\fill}
+
+Tímto prohlašuji, že jsem seminární práci vypracoval samostatně
+a s využitím uvedených zdrojů.
+
+V .................... dne ........................
+   
+\hspace{8.5cm} \makebox[2in]{\hrulefill}
+  				 
+\hspace{8.5cm} \makebox[2in]{Podpis autora}	
+
+\clearpage
+
+% obsah
+\tableofcontents
+\clearpage
+
+% samotny text
+% \setcounter{page}{1} % cislovat od jednicky
+\pagestyle{plain}
+
+$body$
+
+\printendnotes[custom]
+
+\end{document}
