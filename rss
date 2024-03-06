@@ -4,11 +4,11 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Mon, 19 Feb 2024 16:17:05 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 06 Mar 2024 12:43:53 +0100</lastBuildDate>
 		<item>
 			<title>cetba.html</title>
 			<link>https://marty-thane.github.io/dokumenty/cetba.html</link>
-			<pubDate>Sun, 14 Jan 2024 20:40:04 +0100</pubDate>
+			<pubDate>Wed, 06 Mar 2024 12:43:00 +0100</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
@@ -66,18 +66,6 @@
 			<category>programy</category>
 		</item>
 		<item>
-			<title>sablona2.tex</title>
-			<link>https://marty-thane.github.io/programy/sablona2.tex</link>
-			<pubDate>Mon, 19 Feb 2024 15:46:15 +0100</pubDate>
-			<category>programy</category>
-		</item>
-		<item>
-			<title>sablona3.tex</title>
-			<link>https://marty-thane.github.io/programy/sablona3.tex</link>
-			<pubDate>Mon, 19 Feb 2024 16:09:24 +0100</pubDate>
-			<category>programy</category>
-		</item>
-		<item>
 			<title>boids.html</title>
 			<link>https://marty-thane.github.io/programy/boids.html</link>
 			<pubDate>Mon, 19 Feb 2024 15:28:21 +0100</pubDate>
@@ -90,9 +78,15 @@
 			<category>programy</category>
 		</item>
 		<item>
-			<title>sablona1.tex</title>
-			<link>https://marty-thane.github.io/programy/sablona1.tex</link>
-			<pubDate>Fri, 30 Jun 2023 13:03:36 +0200</pubDate>
+			<title>sablona.tex</title>
+			<link>https://marty-thane.github.io/programy/sablona.tex</link>
+			<pubDate>Tue, 27 Feb 2024 12:38:51 +0100</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>sablona2.tex</title>
+			<link>https://marty-thane.github.io/programy/sablona2.tex</link>
+			<pubDate>Tue, 27 Feb 2024 18:21:26 +0100</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
