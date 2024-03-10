@@ -4,11 +4,11 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Wed, 06 Mar 2024 12:43:53 +0100</lastBuildDate>
+		<lastBuildDate>Sun, 10 Mar 2024 21:10:29 +0100</lastBuildDate>
 		<item>
 			<title>cetba.html</title>
 			<link>https://marty-thane.github.io/dokumenty/cetba.html</link>
-			<pubDate>Wed, 06 Mar 2024 12:43:00 +0100</pubDate>
+			<pubDate>Wed, 06 Mar 2024 12:47:51 +0100</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
@@ -88,12 +88,6 @@
 			<link>https://marty-thane.github.io/programy/sablona2.tex</link>
 			<pubDate>Tue, 27 Feb 2024 18:21:26 +0100</pubDate>
 			<category>programy</category>
-		</item>
-		<item>
-			<title>learn_godot_in_10_minutes.mp4</title>
-			<link>https://marty-thane.github.io/videa/learn_godot_in_10_minutes.mp4</link>
-			<pubDate>Mon, 20 Feb 2023 16:53:51 +0100</pubDate>
-			<category>videa</category>
 		</item>
 	</channel>
 </rss>
