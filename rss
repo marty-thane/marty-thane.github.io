@@ -4,7 +4,7 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Sun, 10 Mar 2024 21:10:29 +0100</lastBuildDate>
+		<lastBuildDate>Sun, 17 Mar 2024 20:58:04 +0100</lastBuildDate>
 		<item>
 			<title>cetba.html</title>
 			<link>https://marty-thane.github.io/dokumenty/cetba.html</link>
@@ -86,8 +86,13 @@
 		<item>
 			<title>sablona2.tex</title>
 			<link>https://marty-thane.github.io/programy/sablona2.tex</link>
-			<pubDate>Tue, 27 Feb 2024 18:21:26 +0100</pubDate>
+			<pubDate>Sun, 17 Mar 2024 15:58:47 +0100</pubDate>
 			<category>programy</category>
+		</item>
+		<item>
+			<title>linux_is_picky-cropped.png</title>
+			<link>https://marty-thane.github.io/linux_is_picky-cropped.png</link>
+			<pubDate>Tue, 20 Feb 2024 15:05:13 +0100</pubDate>
 		</item>
 	</channel>
 </rss>
