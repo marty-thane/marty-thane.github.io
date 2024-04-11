@@ -1,0 +1,28 @@
+body {
+	font-family: monospace, sans-serif;
+	max-width: 23em;
+	margin: auto;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: yellow;
+}
+
+.notice {
+	font-family: sans-serif;
+	font-size: small;
+}
+
+.right {
+	float: right;
+}

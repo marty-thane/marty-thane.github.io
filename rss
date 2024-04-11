@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Martinova Pochutina</title>
+		<link>https://marty-thane.github.io</link>
+		<description>delikátní záležitost</description>
+		<lastBuildDate>Wed, 10 Apr 2024 22:33:48 +0200</lastBuildDate>
+		<item>
+			<title>kvarteto_drama.pdf</title>
+			<link>https://marty-thane.github.io/dokumenty/kvarteto_drama.pdf</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:49 +0200</pubDate>
+			<category>dokumenty</category>
+		</item>
+		<item>
+			<title>maturitni_prace.pdf</title>
+			<link>https://marty-thane.github.io/dokumenty/maturitni_prace.pdf</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:49 +0200</pubDate>
+			<category>dokumenty</category>
+		</item>
+		<item>
+			<title>cetba.html</title>
+			<link>https://marty-thane.github.io/dokumenty/cetba.html</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:49 +0200</pubDate>
+			<category>dokumenty</category>
+		</item>
+		<item>
+			<title>mooruv_zakon.pdf</title>
+			<link>https://marty-thane.github.io/dokumenty/mooruv_zakon.pdf</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:49 +0200</pubDate>
+			<category>dokumenty</category>
+		</item>
+		<item>
+			<title>genetic_algorithms.pdf</title>
+			<link>https://marty-thane.github.io/dokumenty/genetic_algorithms.pdf</link>
+			<pubDate>Wed, 10 Apr 2024 22:24:31 +0200</pubDate>
+			<category>dokumenty</category>
+		</item>
+		<item>
+			<title>your-song.mp3</title>
+			<link>https://marty-thane.github.io/hudba/your-song.mp3</link>
+			<pubDate>Wed, 10 Apr 2024 22:29:17 +0200</pubDate>
+			<category>hudba</category>
+		</item>
+		<item>
+			<title>holy-water.mp3</title>
+			<link>https://marty-thane.github.io/hudba/holy-water.mp3</link>
+			<pubDate>Wed, 10 Apr 2024 22:29:02 +0200</pubDate>
+			<category>hudba</category>
+		</item>
+		<item>
+			<title>all-around.mp3</title>
+			<link>https://marty-thane.github.io/hudba/all-around.mp3</link>
+			<pubDate>Wed, 10 Apr 2024 22:28:56 +0200</pubDate>
+			<category>hudba</category>
+		</item>
+		<item>
+			<title>stranger_DEMO.mp3</title>
+			<link>https://marty-thane.github.io/hudba/stranger_DEMO.mp3</link>
+			<pubDate>Wed, 10 Apr 2024 22:29:07 +0200</pubDate>
+			<category>hudba</category>
+		</item>
+		<item>
+			<title>sunday.mp3</title>
+			<link>https://marty-thane.github.io/hudba/sunday.mp3</link>
+			<pubDate>Wed, 10 Apr 2024 22:29:12 +0200</pubDate>
+			<category>hudba</category>
+		</item>
+		<item>
+			<title>linux_is_picky-cropped.png</title>
+			<link>https://marty-thane.github.io/linux_is_picky-cropped.png</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:50 +0200</pubDate>
+		</item>
+		<item>
+			<title>sablona3.tex</title>
+			<link>https://marty-thane.github.io/programy/sablona3.tex</link>
+			<pubDate>Sun, 24 Mar 2024 13:09:01 +0100</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>boids.html</title>
+			<link>https://marty-thane.github.io/programy/boids.html</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:50 +0200</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>sablona.tex</title>
+			<link>https://marty-thane.github.io/programy/sablona.tex</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:50 +0200</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>flappy_bird.html</title>
+			<link>https://marty-thane.github.io/programy/flappy_bird.html</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:50 +0200</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>sablona2.tex</title>
+			<link>https://marty-thane.github.io/programy/sablona2.tex</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:50 +0200</pubDate>
+			<category>programy</category>
+		</item>
+		<item>
+			<title>far_windows.exe</title>
+			<link>https://marty-thane.github.io/programy/far_windows.exe</link>
+			<pubDate>Wed, 10 Apr 2024 21:43:50 +0200</pubDate>
+			<category>programy</category>
+		</item>
+	</channel>
+</rss>
