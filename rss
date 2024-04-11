@@ -4,7 +4,7 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost</description>
-		<lastBuildDate>Wed, 10 Apr 2024 22:33:48 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 11 Apr 2024 10:11:41 +0200</lastBuildDate>
 		<item>
 			<title>kvarteto_drama.pdf</title>
 			<link>https://marty-thane.github.io/dokumenty/kvarteto_drama.pdf</link>
@@ -27,12 +27,6 @@
 			<title>mooruv_zakon.pdf</title>
 			<link>https://marty-thane.github.io/dokumenty/mooruv_zakon.pdf</link>
 			<pubDate>Wed, 10 Apr 2024 21:43:49 +0200</pubDate>
-			<category>dokumenty</category>
-		</item>
-		<item>
-			<title>genetic_algorithms.pdf</title>
-			<link>https://marty-thane.github.io/dokumenty/genetic_algorithms.pdf</link>
-			<pubDate>Wed, 10 Apr 2024 22:24:31 +0200</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
@@ -97,12 +91,6 @@
 		<item>
 			<title>sablona2.tex</title>
 			<link>https://marty-thane.github.io/programy/sablona2.tex</link>
-			<pubDate>Wed, 10 Apr 2024 21:43:50 +0200</pubDate>
-			<category>programy</category>
-		</item>
-		<item>
-			<title>far_windows.exe</title>
-			<link>https://marty-thane.github.io/programy/far_windows.exe</link>
 			<pubDate>Wed, 10 Apr 2024 21:43:50 +0200</pubDate>
 			<category>programy</category>
 		</item>
