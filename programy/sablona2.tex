@@ -2,91 +2,85 @@
 % Kapitoly piste mimo a vkladejte pomoci \input{}. Pro kompilaci pouzijte
 % `pdflatex`.
 
-\documentclass[10pt,a5paper]{book}
-\usepackage[czech]{babel} 
-\usepackage[utf8]{inputenc}
-\usepackage[IL2]{fontenc}
-\usepackage[a-1b]{pdfx}
-\usepackage{csquotes}
-\usepackage{charter}
-\usepackage{hyperref}
-\usepackage{titlesec}
-\usepackage{fancyhdr}
-\usepackage{etoolbox}
-% \usepackage{draftwatermark}
+% trida dokumentu
+\documentclass[11pt,a5paper]{book}
 
-% spravne rozmery pro tisk
+% format pro archivaci
+\usepackage[a-1b]{pdfx}
+
+% kodovani
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% jazyk
+\usepackage[czech]{babel} 
+
+% pismo
+\usepackage{tgtermes}
+
+% nastaveni okraju
 \usepackage[
 	% papersize={153mm,215mm},
 	layout=a5paper,
 	% layouthoffset=2.5mm,
 	% layoutvoffset=2.5mm,
-	bindingoffset=0.76cm,
-	margin=1.54cm,
+	bindingoffset=6mm,
+	margin=15mm,
 	includefoot,
 	% showframe
-	]
-	{geometry}
-
-% nastaveni dpi
-\pdfpkresolution=300
+	]{geometry}
 
 % radkovani
-\linespread{1.09}
+\linespread{1.1}
 
-% rimske cislice v sekcich, kapitoly bez cislovani
-\renewcommand{\thesection}{\Roman{section}}
-\renewcommand{\thechapter}{}
+% vertikalni zarovnani
+\raggedbottom
 
-% csquotes pro uvozovky
-\renewcommand{\uv}{\enquote}
+% microtyping
+\usepackage[babel]{microtype}
 
 % formatovani nadpisu
+\usepackage{titlesec}
 \titleformat{\chapter}[hang]
-	{\normalfont\Huge\sc}{}{0pt}{}
-\titleformat{\section}[display]
-	{\normalfont\center\bf}{\thesection}{0pt}{\normalfont\it}
+	{\normalfont\Huge\bfseries}{}{0pt}{}
+\titleformat{\section}
+	{\normalfont\Large\bfseries\centering}{\Roman{section}.}{0pt}{}
 
-% bez zahlavi, cislovani stran v rohu
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\fancyfoot[LE,RO]{\thepage}
-\fancypagestyle{plain}{
-	\fancyhf{}
-	\renewcommand{\headrulewidth}{0pt}
-	\fancyhf[lef,rof]{\thepage}
-}
-
-% necislovat prazdne strany pred dalsi kapitolou
+% polozky obsahu bez cislovani, normalni font
+\usepackage{tocloft}
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
 \makeatletter
-	\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
-	\begingroup
-	\mbox{}
-	\thispagestyle{empty}
-	\newpage
-	% \if@twocolumn\mbox{}\newpage\fi
-	\endgroup\fi\fi}
+	\renewcommand{\cftchappresnum}{\begin{lrbox}{\@tempboxa}}
+	\renewcommand{\cftchapaftersnum}{\end{lrbox}}
 \makeatother
-
-% polozky obsahu bez odrazeni
-\makeatletter
-	\patchcmd{\l@chapter}{1.5em}{0em}{}{}
-\makeatother
+\setlength{\cftchapnumwidth}{0pt}
 
 % v obsahu pouze kapitoly
 \setcounter{tocdepth}{0}
 
+% prazdne strany bez cislovani
+\usepackage{emptypage}
+
+% cislovani stran respektuje sudost/lichost
+\usepackage{fancyhdr}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{
+    \fancyfoot[LE,RO]{\thepage}
+}
+
 \begin{document}
+\pagestyle{empty}
 
 % titulni strana
-\pagestyle{empty}
 \begin{center}
 	\vspace*{\fill}
-	\Huge\sc
+	\Huge\bf
 	Jan Novák
 
-	Povídky
-	\vspace{1em}
+	Kniha
+	% \vspace{0.5em}
 	\vspace{\fill}
 \end{center}
 \clearpage
@@ -97,7 +91,7 @@
 	\setlength\parindent{0pt}
 	% 1. revidované vydání.
 
-	© Jan Novák \the\year
+	© Jan novák \the\year
 }
 \clearpage
 
@@ -107,27 +101,24 @@
 	\it
 	Zde je místo
 
-	pro milé věnování.
-	\vspace{\fill}
+	pro hezké věnování.
+	\par\vspace{\fill}
 \end{flushright}
 \cleardoublepage
 
 % obsah
 {
-	\renewcommand{\bfseries}{\mdseries}
+	\microtypesetup{protrusion=false}
 	\tableofcontents
 }
 \thispagestyle{empty}
-\cleardoublepage
 
 % samotny text
-\pagestyle{fancy}
-% \setcounter{page}{1}
+\pagestyle{plain}
+% \input{obsah/povidka1.tex}
 
-% \input{obsah/povidka.tex}
-% \input{obsah/jina_povidka.tex}
-% \input{obsah/posledni_povidka.tex}
-
-% \input{content/podekovani.tex}
+%* tady bude treba opravit cislovani, pokud podekovani na vic stran
+\input{content/podekovani.tex}
+\thispagestyle{empty}
 
 \end{document}
