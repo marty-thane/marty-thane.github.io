@@ -1,120 +1,120 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Martinova Pochutina</title>
-		<link>https://marty-thane.github.io</link>
-		<description>delikátní záležitost...</description>
-		<lastBuildDate>Sun, 25 Aug 2024 12:32:55 +0200</lastBuildDate>
+		<title>Your Website</title>
+		<link>https://example.com</link>
+		<description>my personal website</description>
+		<lastBuildDate>Fri, 06 Sep 2024 16:30:41 +0200</lastBuildDate>
 		<item>
 			<title>linux_is_picky-cropped.png</title>
-			<link>https://marty-thane.github.io/linux_is_picky-cropped.png</link>
+			<link>https://example.com/linux_is_picky-cropped.png</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 		</item>
 		<item>
 			<title>sunday.mp3</title>
-			<link>https://marty-thane.github.io/hudba/sunday.mp3</link>
+			<link>https://example.com/hudba/sunday.mp3</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>hudba</category>
 		</item>
 		<item>
 			<title>all-around.mp3</title>
-			<link>https://marty-thane.github.io/hudba/all-around.mp3</link>
+			<link>https://example.com/hudba/all-around.mp3</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>hudba</category>
 		</item>
 		<item>
 			<title>your-song.mp3</title>
-			<link>https://marty-thane.github.io/hudba/your-song.mp3</link>
+			<link>https://example.com/hudba/your-song.mp3</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>hudba</category>
 		</item>
 		<item>
 			<title>stranger_DEMO.mp3</title>
-			<link>https://marty-thane.github.io/hudba/stranger_DEMO.mp3</link>
+			<link>https://example.com/hudba/stranger_DEMO.mp3</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>hudba</category>
 		</item>
 		<item>
 			<title>holy-water.mp3</title>
-			<link>https://marty-thane.github.io/hudba/holy-water.mp3</link>
+			<link>https://example.com/hudba/holy-water.mp3</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>hudba</category>
 		</item>
 		<item>
 			<title>boids.html</title>
-			<link>https://marty-thane.github.io/programy/boids.html</link>
+			<link>https://example.com/programy/boids.html</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
 			<title>sablona2.tex</title>
-			<link>https://marty-thane.github.io/programy/sablona2.tex</link>
+			<link>https://example.com/programy/sablona2.tex</link>
 			<pubDate>Mon, 08 Jul 2024 12:52:51 +0200</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
 			<title>courses.png</title>
-			<link>https://marty-thane.github.io/programy/courses.png</link>
+			<link>https://example.com/programy/courses.png</link>
 			<pubDate>Thu, 04 Jul 2024 11:09:23 +0200</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
 			<title>sablona3.tex</title>
-			<link>https://marty-thane.github.io/programy/sablona3.tex</link>
+			<link>https://example.com/programy/sablona3.tex</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
 			<title>flappy_bird.html</title>
-			<link>https://marty-thane.github.io/programy/flappy_bird.html</link>
+			<link>https://example.com/programy/flappy_bird.html</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
 			<title>courses.R</title>
-			<link>https://marty-thane.github.io/programy/courses.R</link>
+			<link>https://example.com/programy/courses.R</link>
 			<pubDate>Thu, 04 Jul 2024 11:12:33 +0200</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
 			<title>sablona.tex</title>
-			<link>https://marty-thane.github.io/programy/sablona.tex</link>
+			<link>https://example.com/programy/sablona.tex</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>programy</category>
 		</item>
 		<item>
 			<title>matematicky_software.pdf</title>
-			<link>https://marty-thane.github.io/dokumenty/matematicky_software.pdf</link>
+			<link>https://example.com/dokumenty/matematicky_software.pdf</link>
 			<pubDate>Tue, 11 Jun 2024 16:39:06 +0200</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
 			<title>maturitni_prace.pdf</title>
-			<link>https://marty-thane.github.io/dokumenty/maturitni_prace.pdf</link>
+			<link>https://example.com/dokumenty/maturitni_prace.pdf</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
 			<title>optimalizace.pdf</title>
-			<link>https://marty-thane.github.io/dokumenty/optimalizace.pdf</link>
+			<link>https://example.com/dokumenty/optimalizace.pdf</link>
 			<pubDate>Thu, 22 Aug 2024 20:13:32 +0200</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
 			<title>cetba.html</title>
-			<link>https://marty-thane.github.io/dokumenty/cetba.html</link>
-			<pubDate>Wed, 03 Jul 2024 21:09:01 +0200</pubDate>
+			<link>https://example.com/dokumenty/cetba.html</link>
+			<pubDate>Fri, 06 Sep 2024 16:30:06 +0200</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
 			<title>kvarteto_drama.pdf</title>
-			<link>https://marty-thane.github.io/dokumenty/kvarteto_drama.pdf</link>
+			<link>https://example.com/dokumenty/kvarteto_drama.pdf</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
 			<title>mooruv_zakon.pdf</title>
-			<link>https://marty-thane.github.io/dokumenty/mooruv_zakon.pdf</link>
+			<link>https://example.com/dokumenty/mooruv_zakon.pdf</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
 			<category>dokumenty</category>
 		</item>
