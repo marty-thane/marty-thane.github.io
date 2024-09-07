@@ -4,7 +4,7 @@
 		<title>Martinova Pochutina</title>
 		<link>https://marty-thane.github.io</link>
 		<description>delikátní záležitost...</description>
-		<lastBuildDate>Fri, 06 Sep 2024 23:47:12 +0200</lastBuildDate>
+		<lastBuildDate>Sat, 07 Sep 2024 16:33:47 +0200</lastBuildDate>
 		<item>
 			<title>linux_is_picky-cropped.png</title>
 			<link>https://marty-thane.github.io/linux_is_picky-cropped.png</link>
@@ -92,6 +92,12 @@
 			<title>maturitni_prace.pdf</title>
 			<link>https://marty-thane.github.io/dokumenty/maturitni_prace.pdf</link>
 			<pubDate>Wed, 03 Jul 2024 21:06:23 +0200</pubDate>
+			<category>dokumenty</category>
+		</item>
+		<item>
+			<title>jazykove_modely.pdf</title>
+			<link>https://marty-thane.github.io/dokumenty/jazykove_modely.pdf</link>
+			<pubDate>Sat, 07 Sep 2024 16:32:41 +0200</pubDate>
 			<category>dokumenty</category>
 		</item>
 		<item>
